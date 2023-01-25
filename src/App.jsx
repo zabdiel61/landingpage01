@@ -1,8 +1,12 @@
+import Header from "./components/Header"
+import Hero from "./components/Hero"
+
 function App() {
 
   return (
-    <div className="bg-red-400">
-        Hola mundo
+    <div >
+        <Header/>
+        <Hero/>
     </div>
   )
 }
